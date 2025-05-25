@@ -12,8 +12,6 @@ public class FinalProject7SwiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(FinalProject7SwiApplication.class, args);
-//        DockerManager.startDockerContainer();
-
     }
 
 }
