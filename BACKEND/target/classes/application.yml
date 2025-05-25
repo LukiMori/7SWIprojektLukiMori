@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/java
+    username: sa
+    password:
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  application:
+    name: MyAwesomeBackend
+
+
+server:
+  port: 8081
+app:
+  name: MyAwesomeBackend
